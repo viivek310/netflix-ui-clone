@@ -31,6 +31,9 @@
         width: auto;
     }
 
+    .FAQ-list ul li svg{
+        width: 30px;
+    }
 }
 
 @media(max-width: 700px){
@@ -77,6 +80,6 @@
         display: none !important;
     }
 
-    
+
 
 }
