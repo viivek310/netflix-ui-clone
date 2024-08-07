@@ -1,0 +1,80 @@
+/* responsiveness */
+@media(max-width: 1300px){
+    :root{
+        --section-padding: 50px;
+    }
+}
+
+@media(max-width: 1000px){
+
+    :root{
+        --heading-font-size: 30px;
+        --secondary-font-size: 16px;
+    }
+
+
+    .footer .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img-section{
+        /* display: inline-block;        */
+        flex-direction: column !important;
+        padding-block: 50px;
+        height: auto;
+    }
+    .img-section img,
+    .img-section video{
+        width: 70%;
+    }
+    .tv-image,
+    .mobile-image{
+        width: auto;
+    }
+
+}
+
+@media(max-width: 700px){
+    :root{
+        --section-padding: 30px;
+        --primary-font-size: 16px
+    }
+
+
+
+    .Get-Started form,
+    .FAQ form { 
+    flex-direction: column;
+    min-height: 100px;
+    /* padding: 0; */
+    width: 90%;
+    }
+
+    .Get-Started form >input,
+    .FAQ form>input { 
+        width: 100%;
+    }
+    /* .email-inp{
+        height: 70px;
+    } */
+    .get-start-btn{
+        width: 40%
+    }
+
+    .buttons{
+        gap: 10px
+    }
+
+    .logo{
+        width: 100px
+    }
+}
+
+@media(max-width: 500px){
+    :root{
+        --section-padding: 20px
+    }
+    .lang{
+        display: none !important;
+    }
+
+}
